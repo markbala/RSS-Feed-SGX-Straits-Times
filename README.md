@@ -11,6 +11,7 @@ if you don't have the feedparser library installed, run (without the $):
 $pip install feedparser
 
 If on python 3, use "import tkinter"
+
 If on python 2, use "import Tkinter"
 
 Most free RSS readers refresh every 30 - 60mins, which is a little too infrequent for my work, thus the need for this short script.
