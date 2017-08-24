@@ -8,11 +8,9 @@ Cycles through the 10 latest updates (20 in total) from SGX and ST.
 Runs "always on top" (i.e. floating above all open applications).
 
 if you don't have the feedparser library installed, run:
-```pip install feedparser```
+````pip install feedparser````
 
-If on python 3, use "import tkinter"
-
-If on python 2, use "import Tkinter"
+Written for Python 3
 
 Most free RSS readers refresh every 30 - 60mins, which is a little too infrequent for my work, thus the need for this short script.
 
