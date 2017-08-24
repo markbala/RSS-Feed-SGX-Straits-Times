@@ -10,7 +10,7 @@ Runs "always on top" (i.e. floating above all open applications).
 if you don't have the feedparser library installed, run:
 ````pip install feedparser````
 
-Written for Python 3
+Use Python 3
 
 Most free RSS readers refresh every 30 - 60mins, which is a little too infrequent for my work, thus the need for this short script.
 
