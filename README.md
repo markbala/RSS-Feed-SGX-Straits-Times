@@ -8,7 +8,7 @@ Cycles through the 10 latest updates (20 in total) from SGX and ST.
 Runs "always on top" (i.e. floating above all open applications).
 
 if you don't have the feedparser library installed, run:
-````pip install feedparser````
+```pip install feedparser```
 
 Use Python 3
 
