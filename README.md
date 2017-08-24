@@ -1,5 +1,5 @@
 # RSS-Feed-SGX-Straits-Times
-Personal RSS Feed to pull SGX Company announcements and Straits Times News.
+Personal RSS Feed for SGX Company announcements and Straits Times News.
 
 Checks for updates every 60secs.
 
