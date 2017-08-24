@@ -5,14 +5,16 @@
 import feedparser, urllib,time, sys, random
 from tkinter import *
 
-stFeed = feedparser.parse('http://www.straitstimes.com/news/singapore/rss.xml')
-sgxFeed = feedparser.parse('http://infopub.sgx.com/SitePages/RSSAnnouncementToday.aspx')
 stDatabase, sgxDatabase = [], []
-
 def initialiseRSS():
-	for i in range(0,10):
-		stDatabase.append(stFeed.entries[i].summary_detail.value.replace("<br /><br />"," "))
-		sgxDatabase.append(sgxFeed.entries[i].title+" "+sgxFeed.entries[i].summary_detail.value)
+	try:
+		stFeed = feedparser.parse('http://www.straitstimes.com/news/singapore/rss.xml')
+		sgxFeed = feedparser.parse('http://infopub.sgx.com/SitePages/RSSAnnouncementToday.aspx')
+		for i in range(0,12):
+			stDatabase.append(stFeed.entries[i].summary_detail.value.replace("<br /><br />"," "))
+			sgxDatabase.append(sgxFeed.entries[i].title+" "+sgxFeed.entries[i].summary_detail.value)
+	except:
+		pass
 
 def loop():
 	try:
