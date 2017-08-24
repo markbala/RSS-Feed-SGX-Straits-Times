@@ -2,7 +2,9 @@
 # Feeds are updated every minute
 # The MIT License (MIT)
 # Copyright (c) 2017 Mark Balakrishnan
-import feedparser, urllib,time, sys, random
+import feedparser, sys, random
+if sys.version_info[0] < 3:
+    raise Exception("Must be using Python 3")
 from tkinter import *
 
 stDatabase, sgxDatabase = [], []
