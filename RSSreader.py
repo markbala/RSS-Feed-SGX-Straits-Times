@@ -1,4 +1,4 @@
-# SGX Company Announcements and Straits Times RSS Feeds on window_handles
+# SGX Company Announcements and Straits Times RSS Feeds on Windows
 # Feeds are updated every minute
 # The MIT License (MIT)
 # Copyright (c) 2017 Mark Balakrishnan
