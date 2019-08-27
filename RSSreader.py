@@ -21,7 +21,7 @@ def initialiseRSS():
 def loop():
 	try:
 		stFeed = feedparser.parse('http://www.straitstimes.com/news/singapore/rss.xml')
-		sgxFeed = feedparser.parse('http://infopub.sgx.com/SitePages/RSSAnnouncementToday.aspx')
+		sgxFeed = feedparser.parse('https://links.sgx.com/SitePages/RSSAnnouncementToday.aspx')
 		for i in range(0,5):
 			if stFeed.entries[i].summary_detail.value.replace("<br /><br />"," ") in stDatabase:
 				continue
